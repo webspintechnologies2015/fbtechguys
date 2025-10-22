@@ -1,0 +1,432 @@
+/*****************
+	Media queries
+******************/
+
+@media only screen and (min-width: 769px) and (max-width: 1900px) {
+#nav ul{ display:inline-block !important;}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1080px) {
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%; }
+	.fullWidth {width: 96%; }
+	.intro { width:100%; }
+	.smallPar {width: 68%; }
+	.top5copy {width: 70%; }
+	.content { width:61%; float:left;margin-left: 3px; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 31.5%; }
+	.day { background:none; padding:10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:65%; margin-left:12px; }
+	.offer {width: 90%; }
+	.step {width: 89%;margin: 15px auto 0px auto; }
+	.step2 {width: 89%;margin: 15px auto 0px auto; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:100%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:10px; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	ul.menu li ul { left: 28px;   }
+	.email{ width: 34%;
+float: left !important;
+margin-left: 20px;}
+	#contact-area{ width:100%;}
+	.content img{ width:98%; height:auto !important;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	
+	.btm{ width:90% !important;}
+	.imgInline { width:23% !important; }
+	
+}
+
+
+@media only screen and (min-width: 840px) and (max-width: 959px) {
+	
+		iframe, object{ max-width:100% !important;}
+	.main {width: 96%; overflow:hidden; margin-top:0px; }
+	.fullWidth {width: 96%; }
+	.intro { width:100%; }
+	.smallPar {width: 64%; }
+	.top5copy {width: 70%; }
+	.content { width:56%; float:left;margin-left: 3px; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 30.5%; }
+	.day { background:none; padding:10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:58%; margin-left:10px; }
+	.offer {width: 90%; }
+	.step {width: 89%;margin: 15px auto 0px auto; }
+	.step2 {width: 89%;margin: 15px auto 0px auto; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:100%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:10px; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	.footer p { width:100%;}
+	ul.menu li ul { left: 20px;   }
+	.smallPar p { padding-top: 11px;  }
+	.menu-box {width: 184px; }
+	.email{ width: 37%;
+float: left !important;
+margin-left: 10px;}
+	/** added **/
+	
+	#contact-area{ width:100%;}
+	.cont_txt{ width:94% !important;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	.trans_img{ width:98%;}
+	.social{ padding-left:10px; padding-right:15px;}
+	.widd{ width:100%; height:auto !important;}
+	.btm{ width:90% !important;}
+	
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 839px) {
+	
+	
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%; overflow:hidden; margin-top:0px;  }
+	.fullWidth {width: 95%; }
+	.intro { width:100%; }
+	.smallPar {width: 100%; padding-left: 0px; padding-right: 0px; }
+	.top5copy {width: 68%; }
+	.content { width: 51%;float: left;margin-left: 0px; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 30.5%; }
+	.day { background:none; padding:10px; margin-left: -10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:55%; }
+	.offer {width: 90%; }
+	.step {width: 89%;margin: 15px auto 0px auto; }
+	.step2 {width: 89%;margin: 15px auto 0px auto; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:100%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:10px; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	.footer p { width:100%;}
+	ul.menu li ul { left: 20px;   }
+	.smallPar p { padding-top: 11px;padding-bottom: 11px;  }
+	.day img {padding-left: 0px; padding-right:10px;}
+	.social { padding-left: 15px; }
+	
+	.email{ width: 29%;
+float: left !important;
+margin-left: 10px;}
+
+	#contact-area{ width:100%;}
+	#contact-area input, #contact-area textarea{ width:32%;}
+	#contact-area input.submit-button{ width:60px;}
+	#contact-area textarea:focus, #contact-area input:focus{ border:1px solid; outline:none;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	.content img{ width:98%; height:auto !important;}
+	.trans_img{ width:98%;}
+	.social{ padding-left:10px; padding-right:15px;}
+	.widd{ width:100%; height:auto !important;}
+	.btm{ width:90% !important;}
+	.imgInline { width:23% !important; }
+	
+	
+	
+}
+
+
+
+@media only screen and (min-width: 619px) and (max-width: 768px) {
+	
+	
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%; overflow:hidden; margin-top:0px;  }
+	.fullWidth {width: 95%; padding-right:20px; padding-left:20px; }
+	.intro { width:100%; }
+	.smallPar {width: 62%;padding-left: 0px;padding-right: 15px; }
+	.top5copy {width: 59%; height: auto; margin-bottom: 22px; }
+	.content { width: 46%;float: left;margin-left: 0px; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 100%; }
+	.day { background:none; padding:10px; margin-left: -10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:100%; }
+	.offer {width: 90%; }
+	.step {width: 89%;margin: 15px auto 0px auto; height:auto; }
+	.step2 {width: 89%;margin: 15px auto 0px auto; height:auto; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:100%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:0px; margin-left:0px; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	.footer p { width:100%;}
+	ul.menu li ul { left: 47px;   }
+	.smallPar p { padding-top: 11px;padding-bottom: 11px;  }
+	.day img {padding-left: 0px;}
+	.social { padding-left: 3px; padding-right: 0px; }
+	.post-author { width:100%; }
+	.offer2img { width:100%; }
+	.pageheader { width:100% !important; }
+	.testdiaryimg { width:100%; text-align:center; }
+	.menu-box {width: 18%; }
+	ul.menu li { width:100%; }
+	ul.menu li:hover { width:100%; }
+	
+	.email{ width: 31%;
+float: left !important;
+margin-left: 6px;}
+
+	#contact-area{ width:100%;}
+	#contact-area input, #contact-area textarea{ width:30%;}
+	#contact-area input.submit-button{ width:50px;}
+	#contact-area textarea:focus, #contact-area input:focus{ border:1px solid; outline:none;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	.trans_img{ width:98%;}
+	.widd{ width:100%; height:auto !important;}
+	.af-form-wrapper .af-element .previewLabel{ padding-right:3px;}
+	.btm{ width:89% !important;}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 618px) {
+	
+	
+	
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%; overflow:hidden;}
+	.fullWidth {width: 90%;  }
+	.intro { width:100%; }
+	.smallPar {width: 100%;padding-left: 0px;padding-right: 0px; padding-left: 0px; }
+	.top5copy {width: 83%;height: auto;margin-bottom: 22px;text-align: center; }
+	.content { width: 84%;float: none; margin:0 auto; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 100%; }
+	.day { background:none; padding:10px; margin-left: -10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:100%; }
+	.offer {width: 90%; }
+	.step {width: 89%;margin: 15px auto 0px auto; height:auto;padding: 18px; background-image:none; }
+	.step2 {width: 89%;margin: 15px auto 0px auto; height:auto; padding: 18px;  background-image:none; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:97%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:0px; margin-left:0px; width:100%; }
+	.oz-img { width:40%; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	.footer p { width:100%;}
+	ul.menu li ul { width: 293px; left:-58px;   }
+	ul.menu li ul li { width:100%; text-align:center; }
+	ul.menu li ul li a { width:100%; padding-top: 0px; }
+	.smallPar p { padding-top: 11px;padding-bottom: 11px;  }
+	.day img {padding-left: 0px;}
+	.social { padding-left: 0px; width:100%; text-align:center; padding-right: 0px; border-right-width: 0px; }
+	.post-author { width:100%; }
+	.offer2img { width:100%; }
+	.pageheader { width:100% !important; }
+	.testdiaryimg { width:100%; text-align:center; }
+	.menu-box {width: 100%; border-right:0px; }
+	ul.menu li { width:100%; }
+	ul.menu li:hover { width:100%; }
+	
+	.anti_img { margin:16px 0px 0px 0px; display:inline-block; float:none;} 
+	.top5img { margin: 15px auto 16px auto;float: none; } 
+	ul.menu { width:102px; margin: 0px auto; float:none; }
+	.af-element { width:300px; margin:0px auto 0px auto; display:table; }
+	#logoImg { background-size:430px; }
+	
+	#contact-area{ width:100%;}
+	#contact-area input, #contact-area textarea{ width:47%;}
+	#contact-area input.submit-button{ width:70px;}
+	#contact-area textarea:focus, #contact-area input:focus{ border:1px solid; outline:none;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	
+	.trans_img{ width:98%;}
+	.widd{ width:100%; height:auto !important;}
+	.af-form-wrapper .af-element .previewLabel{ padding-right:3px;}
+	.email{ width:100%;}
+	.st_facebook_large{ display:inline-block; vertical-align: middle;}
+	.like_p{ float:none !important; display:inline-block; vertical-align:top; margin-top:6px !important; }
+	.center{ margin-top:40px;}
+	.btm{ width:87% !important;}
+}
+
+
+@media only screen and (min-width: 319px) and (max-width: 479px) {
+	
+	
+	
+	
+	
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%;  overflow:hidden;}
+	.fullWidth {width: 88%; padding-left:15px; padding-right:15px; }
+	.intro { width:100%; }
+	.smallPar {width: 89%;padding-left: 0px;padding-right: 0px; padding-left: 0px; margin:0px auto; float:none; }
+	.top5copy {width: 81%;height: auto;margin-bottom: 22px;text-align: center; padding-right:0px; }
+	.content { width: 79%;float: none;margin:0 auto; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 100%; }
+	.day { background:none; padding:10px; margin-left: -10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:100%; }
+	.offer {width: 90%; }
+	.step {width: 92%;margin: 15px auto 0px auto; height:auto; padding:12px; background-image:none; }
+	.alignnone  { width:210px; height:auto; }
+	.step2 {width: 92%;margin: 15px auto 0px auto; height:auto; padding:12px; background-image:none; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:97%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:0px; margin-left:0px; width:100%; }
+	.oz-img { width: 67%;height: auto; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; }
+	.footer p { width:100%;}
+	ul.menu li ul { width:300px; left:-53px;   }
+	ul.menu li ul li { width:100%; text-align:center; }
+	ul.menu li ul li a { width:100%; padding-top: 0px; }
+	.smallPar p { padding-top: 11px;padding-bottom: 11px;  }
+	.day img {padding-left: 0px;}
+	.social { padding-left: 0px; width:100%; text-align:center; padding-right: 0px; border-right-width: 0px; }
+	.post-author { width:100%; }
+	.offer2img { width:100%; }
+	.pageheader { width:100% !important; }
+	.testdiaryimg { width:100%; text-align:center; }
+	.menu-box {width: 100%; border-right:0px; }
+	ul.menu li { width:100%; }
+	ul.menu li:hover { width:100%; }
+	
+	.anti_img { margin:16px 0px 0px 0px; display:inline-block; float:none;} 
+	.top5img { margin: 15px auto 16px auto;float: none; } 
+	ul.menu { width:102px; margin: 0px auto; float:none; }
+	.af-element { width:286px; margin:0px auto 0px auto;  }
+	#logoImg { background-size:310px; }
+	.top5 {margin-left: 0px; }
+	
+	#contact-area{ width:100%;}
+	#contact-area input, #contact-area textarea{ width:46%;}
+	#contact-area input.submit-button{ width:68px;}
+	#contact-area textarea:focus, #contact-area input:focus{ border:1px solid; outline:none;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	
+	.trans_img{ width:98%;}
+	.widd{ width:100%; height:auto !important;}
+	.af-form-wrapper .af-element .previewLabel{ padding-right:3px;}
+	.email{ width:100%;}
+	.st_facebook_large{ display:inline-block; vertical-align: middle;}
+	.like_p{ float:none !important; display:inline-block; vertical-align:top; margin-top:6px !important; }
+	.center{ margin-top:40px;}
+	.btm{ width:86% !important;}
+	
+}
+
+
+
+
+@media only screen and (min-width: 240px) and (max-width: 318px) {
+	
+	
+	
+	iframe, object{ max-width:100% !important;}
+	.main {width: 95%; overflow:hidden; }
+	.fullWidth {width:85%;  }
+	.intro { width:100%; }
+	.smallPar {width: 89%;padding-left: 0px;padding-right: 0px; padding-left: 0px; margin:0px auto; float:none; }
+	.top5copy {width: 83%;height: auto;margin-bottom: 22px;text-align: center; padding-right:0px; }
+	.content { width: 74%;float: none;margin:0 auto; }
+	.hopeGleasonimg { width:100%; height:auto; }
+	.ba1img { width:100%; }
+	.rightimgcaption { width:100%;}
+	.testimonial {width: 100%; }
+	.day { background:none; padding:10px; margin-left: -10px; }
+	.day-text { width:100%; padding:10px; background-image:none; margin-left:0px; border-radius:14px; }
+	.testdiaryp { width:100%; }
+	.offer {width: 90%; }
+	.step {width: 86%;margin: 15px auto 0px auto; height:auto; padding:15px; background-image:none; }
+	.alignnone  { width:210px; height:auto; }
+	.step2 {width: 86%;margin: 15px auto 0px auto; height:auto; padding:15px; background-image:none; }
+	.step_padd { padding:14px 15px 15px 15px; width: 88.8%;}
+	.bottom_fb { width: 92% ; }
+	.logo { width:100%; }
+	.nav-inner { width:97%; }
+	.blurb { width:100%; }
+	.sidebar { margin-right:0px; margin-left:0px; width:100%; }
+	.oz-img { width: 67%;height: auto; }
+	.center { padding:15px;}
+	.center h1 { line-height:40px; word-wrap:break-word; }
+	.footer p { width:100%;}
+	ul.menu li ul { width: 293px; left:-58px;   }
+	ul.menu li ul li { width:100%; text-align:center; }
+	ul.menu li ul li a { width:100%; padding-top: 0px; }
+	.smallPar p { padding-top: 11px;padding-bottom: 11px;  }
+	.day img {padding-left: 0px;}
+	.social { padding-left: 0px; width:100%; text-align:center; padding-right: 0px; border-right-width: 0px; height: auto; }
+	.post-author { width:100%; }
+	.offer2img { width:100%; }
+	.pageheader { width:100% !important; }
+	.testdiaryimg { width:100%; text-align:center; }
+	.menu-box {width: 100%; border-right:0px; }
+	ul.menu li { width:100%; }
+	ul.menu li:hover { width:100%; }
+	
+	.anti_img { margin:16px 0px 0px 0px; display:inline-block; float:none;} 
+	.top5img { margin: 15px auto 16px auto;float: none; } 
+	ul.menu { width:100px; margin: 0px auto; float:none; }
+	.af-element { width:265px; margin:0px auto 0px auto; display:table; }
+	#logoImg { background-size:234px; height:60px; }
+	.top5 {margin-left: 0px; }
+	
+	#contact-area{ width:100%;}
+	#contact-area input, #contact-area textarea{ width:41%;}
+	#contact-area input.submit-button{ width:66px;}
+	#contact-area textarea:focus, #contact-area input:focus{ border:1px solid; outline:none;}
+	.cont_txt{ width:100% !important;}
+	.cont_txt p{ width:100%;}
+	
+	.trans_img{ width:98%;}
+	.widd{ width:100%; height:auto !important;}
+	.af-form-wrapper .af-element .previewLabel{ padding-right:3px;}
+	.email{ width:100%;}
+	.st_facebook_large{ display:inline-block; vertical-align: middle;}
+	.like_p{ float:none !important; display:inline-block; vertical-align:top; margin-top:6px !important; }
+	.center{ margin-top:40px;}
+	.header{ height:auto; padding-bottom:20px;}
+	.btm{ width:78% !important;}
+	
+	
+}
